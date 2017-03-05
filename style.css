@@ -1,0 +1,50 @@
+#circle {
+    background: #000;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px solid white;
+    line-height: 290px;
+    font-size: 900%;
+    font-family: "Arial", Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#circle:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-6px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(12px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-16px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(16px, 0, 0);
+    }
+}
+
+#result {
+    margin-top: 90px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Arial", Arial, sans-serif;
+    text-align: center;
+    font-size: 300%;
+}
