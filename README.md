@@ -1,5 +1,6 @@
 # Magic 8 Ball
 
+
 ### A simple nodejs application that mimics a Magic 8 ball.
 
 Uses [express.js](https://expressjs.com/) to serve a static html page.
