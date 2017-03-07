@@ -20,18 +20,16 @@ Install nodejs using the instructions [here](https://nodejs.org/en/download/pack
 The project contains a **package.json** file that has the dependency declared. The only thing to do is run:
 
 
-```
+```shell
 username$ npm install
-
 ```
 Info about **package.json** can be found [here](https://docs.npmjs.com/getting-started/using-a-package.json).
 
 ### 3. Run
 
 
-```
-username$ node server.jsl
-
+```shell
+username$ node server.js
 ```
 You should see a message that states: "Magic happens on port 8080". That means the server is running and you can access it at:
 [http://localhost:8080/](http://localhost:8080/)!
@@ -39,6 +37,8 @@ You should see a message that states: "Magic happens on port 8080". That means t
 
 ### To get a prediction hover your mouse over the ball!
 
+
+### Screenshot of the app:
 <p align="center">
  <img src ="https://raw.githubusercontent.com/sinzianag/magic8ball/master/magic-8-ball.png"/>
 </p>
